@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITALIS — Fitness & Wellness Platform</title>
+    <meta name="description" content="VITALIS — AI-powered fitness tracking platform for peak performance">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">VITALIS</a>
+            <nav class="nav" id="nav">
+                <a href="#programs" data-lang-en="Programs" data-lang-ru="Программы">Programs</a>
+                <a href="#features" data-lang-en="Features" data-lang-ru="Возможности">Features</a>
+                <a href="#pricing" data-lang-en="Pricing" data-lang-ru="Цены">Pricing</a>
+                <a href="#community" data-lang-en="Community" data-lang-ru="Сообщество">Community</a>
+            </nav>
+            <div class="header-actions">
+                <button class="lang-btn" id="langBtn">EN</button>
+                <a href="#cta" class="cta-btn header-cta" data-lang-en="Start Free Trial" data-lang-ru="Начать бесплатно">Start Free Trial</a>
+                <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <div class="hero-badges">
+                    <span class="hero-badge" data-lang-en="10K+ Users" data-lang-ru="10К+ пользователей">10K+ Users</span>
+                    <span class="hero-badge" data-lang-en="500+ Workouts" data-lang-ru="500+ тренировок">500+ Workouts</span>
+                    <span class="hero-badge" data-lang-en="98% Results" data-lang-ru="98% результат">98% Results</span>
+                </div>
+                <h1><span class="gradient-text" data-lang-en="TRANSFORM YOUR BODY" data-lang-ru="ТРАНСФОРМИРУЙ ТЕЛО">TRANSFORM YOUR BODY</span></h1>
+                <p data-lang-en="AI-powered fitness tracking for peak performance. Personalized workouts, nutrition plans, and real-time progress analytics." data-lang-ru="Фитнес-трекер на базе ИИ для максимальной производительности. Персональные тренировки, планы питания и аналитика прогресса в реальном времени.">AI-powered fitness tracking for peak performance. Personalized workouts, nutrition plans, and real-time progress analytics.</p>
+                <div class="hero-ctas">
+                    <a href="#cta" class="cta-btn" data-lang-en="Start Free Trial" data-lang-ru="Начать бесплатно">Start Free Trial</a>
+                    <a href="#" class="play-btn">
+                        <span class="play-icon">&#9654;</span>
+                        <span data-lang-en="Watch Video" data-lang-ru="Смотреть видео">Watch Video</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="fitness-figure">
+                    <svg viewBox="0 0 300 400" fill="none">
+                        <circle cx="150" cy="70" r="30" fill="url(#headGrad)" opacity="0.6"/>
+                        <line x1="150" y1="100" x2="150" y2="230" stroke="url(#bodyGrad)" stroke-width="3"/>
+                        <line x1="150" y1="140" x2="100" y2="190" stroke="url(#bodyGrad)" stroke-width="3"/>
+                        <line x1="150" y1="140" x2="200" y2="170" stroke="url(#bodyGrad)" stroke-width="3"/>
+                        <line x1="150" y1="230" x2="110" y2="320" stroke="url(#bodyGrad)" stroke-width="3"/>
+                        <line x1="150" y1="230" x2="190" y2="320" stroke="url(#bodyGrad)" stroke-width="3"/>
+                        <circle cx="200" cy="170" r="12" fill="none" stroke="url(#bodyGrad)" stroke-width="2"/>
+                        <defs>
+                            <linearGradient id="headGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#84cc16"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+                            <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#84cc16"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title" data-lang-en="Why VITALIS?" data-lang-ru="Почему VITALIS?">Why VITALIS?</h2>
+            <div class="features-grid">
+                <div class="feature-card"><div class="feature-icon">&#127919;</div><h3 data-lang-en="Smart Tracking" data-lang-ru="Умный трекинг">Smart Tracking</h3><p data-lang-en="AI-powered form analysis for perfect exercise execution" data-lang-ru="ИИ-анализ формы для идеального выполнения упражнений">AI-powered form analysis for perfect exercise execution</p></div>
+                <div class="feature-card"><div class="feature-icon">&#128200;</div><h3 data-lang-en="Progress Analytics" data-lang-ru="Аналитика прогресса">Progress Analytics</h3><p data-lang-en="Detailed performance charts and body composition tracking" data-lang-ru="Детальные графики результатов и отслеживание состава тела">Detailed performance charts and body composition tracking</p></div>
+                <div class="feature-card"><div class="feature-icon">&#127947;</div><h3 data-lang-en="Custom Plans" data-lang-ru="Персональные планы">Custom Plans</h3><p data-lang-en="Personalized workout programs based on your goals" data-lang-ru="Персонализированные программы тренировок под ваши цели">Personalized workout programs based on your goals</p></div>
+                <div class="feature-card"><div class="feature-icon">&#129367;</div><h3 data-lang-en="Nutrition Guide" data-lang-ru="Гид по питанию">Nutrition Guide</h3><p data-lang-en="Meal plans and calorie tracking for optimal results" data-lang-ru="Планы питания и подсчёт калорий для оптимальных результатов">Meal plans and calorie tracking for optimal results</p></div>
+                <div class="feature-card"><div class="feature-icon">&#128101;</div><h3 data-lang-en="Community" data-lang-ru="Сообщество">Community</h3><p data-lang-en="Connect with fitness partners and share achievements" data-lang-ru="Общайтесь с партнёрами по фитнесу и делитесь достижениями">Connect with fitness partners and share achievements</p></div>
+                <div class="feature-card"><div class="feature-icon">&#127942;</div><h3 data-lang-en="Achievements" data-lang-ru="Достижения">Achievements</h3><p data-lang-en="Gamified fitness goals with badges and rewards" data-lang-ru="Геймифицированные фитнес-цели с бейджами и наградами">Gamified fitness goals with badges and rewards</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="section-title light" data-lang-en="Workout Programs" data-lang-ru="Программы тренировок">Workout Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card" style="background:linear-gradient(135deg,#ef4444,#dc2626)">
+                    <h3>HIIT Burn</h3>
+                    <p>30 min &bull; <span data-lang-en="High Intensity" data-lang-ru="Высокая интенсивность">High Intensity</span></p>
+                    <div class="difficulty"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span></div>
+                    <button class="program-btn" data-lang-en="Start Program" data-lang-ru="Начать">Start Program</button>
+                </div>
+                <div class="program-card" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8)">
+                    <h3>Strength Builder</h3>
+                    <p>45 min &bull; <span data-lang-en="Muscle Growth" data-lang-ru="Рост мышц">Muscle Growth</span></p>
+                    <div class="difficulty"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div>
+                    <button class="program-btn" data-lang-en="Start Program" data-lang-ru="Начать">Start Program</button>
+                </div>
+                <div class="program-card" style="background:linear-gradient(135deg,#8b5cf6,#6d28d9)">
+                    <h3>Yoga Flow</h3>
+                    <p>60 min &bull; <span data-lang-en="Flexibility" data-lang-ru="Гибкость">Flexibility</span></p>
+                    <div class="difficulty"><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                    <button class="program-btn" data-lang-en="Start Program" data-lang-ru="Начать">Start Program</button>
+                </div>
+                <div class="program-card" style="background:linear-gradient(135deg,#f59e0b,#d97706)">
+                    <h3>Cardio Rush</h3>
+                    <p>25 min &bull; <span data-lang-en="Endurance" data-lang-ru="Выносливость">Endurance</span></p>
+                    <div class="difficulty"><span class="dot filled"></span><span class="dot filled"></span><span class="dot filled"></span><span class="dot"></span><span class="dot"></span></div>
+                    <button class="program-btn" data-lang-en="Start Program" data-lang-ru="Начать">Start Program</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator -->
+    <section class="bmi-section">
+        <div class="container bmi-inner">
+            <div class="bmi-text">
+                <h2 data-lang-en="Calculate Your BMI" data-lang-ru="Рассчитайте ваш ИМТ">Calculate Your BMI</h2>
+                <p data-lang-en="Body Mass Index is a simple measure using your height and weight to work out if your weight is healthy." data-lang-ru="Индекс массы тела — простой показатель, использующий ваш рост и вес для определения, является ли ваш вес здоровым.">Body Mass Index is a simple measure using your height and weight to work out if your weight is healthy.</p>
+                <div class="bmi-inputs">
+                    <div class="slider-group">
+                        <label><span data-lang-en="Height" data-lang-ru="Рост">Height</span>: <strong id="heightVal">175</strong> cm</label>
+                        <input type="range" id="heightSlider" min="140" max="220" value="175">
+                    </div>
+                    <div class="slider-group">
+                        <label><span data-lang-en="Weight" data-lang-ru="Вес">Weight</span>: <strong id="weightVal">70</strong> kg</label>
+                        <input type="range" id="weightSlider" min="40" max="160" value="70">
+                    </div>
+                </div>
+            </div>
+            <div class="bmi-result">
+                <div class="bmi-ring-container">
+                    <svg viewBox="0 0 200 200" class="bmi-ring">
+                        <circle cx="100" cy="100" r="85" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="12"/>
+                        <circle cx="100" cy="100" r="85" fill="none" stroke="url(#bmiGrad)" stroke-width="12" stroke-linecap="round" stroke-dasharray="534" stroke-dashoffset="400" id="bmiCircle" transform="rotate(-90 100 100)"/>
+                        <defs><linearGradient id="bmiGrad" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#84cc16"/><stop offset="1" stop-color="#3b82f6"/></linearGradient></defs>
+                    </svg>
+                    <div class="bmi-value">
+                        <span id="bmiNumber">22.9</span>
+                        <small id="bmiCategory" data-lang-en="Normal" data-lang-ru="Норма">Normal</small>
+                    </div>
+                </div>
+                <div class="bmi-scale">
+                    <div class="scale-item under"><span>&lt;18.5</span><span data-lang-en="Underweight" data-lang-ru="Недовес">Underweight</span></div>
+                    <div class="scale-item normal active"><span>18.5-24.9</span><span data-lang-en="Normal" data-lang-ru="Норма">Normal</span></div>
+                    <div class="scale-item over"><span>25-29.9</span><span data-lang-en="Overweight" data-lang-ru="Избыток">Overweight</span></div>
+                    <div class="scale-item obese"><span>30+</span><span data-lang-en="Obese" data-lang-ru="Ожирение">Obese</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title" data-lang-en="Choose Your Plan" data-lang-ru="Выберите план">Choose Your Plan</h2>
+            <div class="pricing-toggle">
+                <span data-lang-en="Monthly" data-lang-ru="Месяц" class="toggle-label active" id="monthlyLabel">Monthly</span>
+                <button class="toggle-switch" id="pricingToggle"><span class="toggle-dot"></span></button>
+                <span data-lang-en="Yearly" data-lang-ru="Год" class="toggle-label" id="yearlyLabel">Yearly</span>
+                <span class="save-badge" data-lang-en="-20%" data-lang-ru="-20%">-20%</span>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3 data-lang-en="Basic" data-lang-ru="Базовый">Basic</h3>
+                    <div class="price"><span class="price-amount" data-monthly="0" data-yearly="0">$0</span><span data-lang-en="/month" data-lang-ru="/мес">/month</span></div>
+                    <ul>
+                        <li class="yes" data-lang-en="5 Workout Plans" data-lang-ru="5 планов тренировок">5 Workout Plans</li>
+                        <li class="yes" data-lang-en="Basic Analytics" data-lang-ru="Базовая аналитика">Basic Analytics</li>
+                        <li class="yes" data-lang-en="Community Access" data-lang-ru="Доступ к сообществу">Community Access</li>
+                        <li class="no" data-lang-en="Nutrition Guide" data-lang-ru="Гид по питанию">Nutrition Guide</li>
+                        <li class="no" data-lang-en="AI Coaching" data-lang-ru="ИИ-тренер">AI Coaching</li>
+                        <li class="no" data-lang-en="Priority Support" data-lang-ru="Приоритет поддержка">Priority Support</li>
+                    </ul>
+                    <button class="price-btn" data-lang-en="Get Started" data-lang-ru="Начать">Get Started</button>
+                </div>
+                <div class="price-card popular">
+                    <div class="popular-badge" data-lang-en="Most Popular" data-lang-ru="Популярный">Most Popular</div>
+                    <h3 data-lang-en="Pro" data-lang-ru="Про">Pro</h3>
+                    <div class="price"><span class="price-amount" data-monthly="9.99" data-yearly="7.99">$9.99</span><span data-lang-en="/month" data-lang-ru="/мес">/month</span></div>
+                    <ul>
+                        <li class="yes" data-lang-en="Unlimited Plans" data-lang-ru="Безлимитные планы">Unlimited Plans</li>
+                        <li class="yes" data-lang-en="Advanced Analytics" data-lang-ru="Продвинутая аналитика">Advanced Analytics</li>
+                        <li class="yes" data-lang-en="Community Access" data-lang-ru="Доступ к сообществу">Community Access</li>
+                        <li class="yes" data-lang-en="Nutrition Guide" data-lang-ru="Гид по питанию">Nutrition Guide</li>
+                        <li class="yes" data-lang-en="AI Coaching" data-lang-ru="ИИ-тренер">AI Coaching</li>
+                        <li class="no" data-lang-en="Priority Support" data-lang-ru="Приоритет поддержка">Priority Support</li>
+                    </ul>
+                    <button class="price-btn primary" data-lang-en="Start Trial" data-lang-ru="Начать триал">Start Trial</button>
+                </div>
+                <div class="price-card">
+                    <h3 data-lang-en="Elite" data-lang-ru="Элит">Elite</h3>
+                    <div class="price"><span class="price-amount" data-monthly="19.99" data-yearly="15.99">$19.99</span><span data-lang-en="/month" data-lang-ru="/мес">/month</span></div>
+                    <ul>
+                        <li class="yes" data-lang-en="Everything in Pro" data-lang-ru="Всё из Про">Everything in Pro</li>
+                        <li class="yes" data-lang-en="Personal Trainer" data-lang-ru="Личный тренер">Personal Trainer</li>
+                        <li class="yes" data-lang-en="Video Consultations" data-lang-ru="Видео-консультации">Video Consultations</li>
+                        <li class="yes" data-lang-en="Custom Meal Plans" data-lang-ru="Персональное меню">Custom Meal Plans</li>
+                        <li class="yes" data-lang-en="AI Coaching" data-lang-ru="ИИ-тренер">AI Coaching</li>
+                        <li class="yes" data-lang-en="Priority Support" data-lang-ru="Приоритет поддержка">Priority Support</li>
+                    </ul>
+                    <button class="price-btn" data-lang-en="Go Elite" data-lang-ru="Стать Элит">Go Elite</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="test-carousel" id="testCarousel">
+                <div class="test-card active">
+                    <div class="test-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+                    <p data-lang-en="Lost 15kg in 3 months using VITALIS. The AI coaching is incredible — it adjusted my program in real-time based on my progress." data-lang-ru="Потерял 15кг за 3 месяца с VITALIS. ИИ-тренер невероятен — он корректировал мою программу в реальном времени на основе прогресса.">"Lost 15kg in 3 months using VITALIS. The AI coaching is incredible — it adjusted my program in real-time based on my progress."</p>
+                    <div class="test-author">
+                        <div class="test-avatar" style="background:linear-gradient(135deg,#84cc16,#3b82f6)">DK</div>
+                        <div><strong>Daniel K.</strong><span>85kg &rarr; 70kg</span></div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <div class="test-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+                    <p data-lang-en="Best fitness app I've ever used. The nutrition tracking alone is worth the subscription. Gained 8kg of muscle in 6 months!" data-lang-ru="Лучшее фитнес-приложение. Одно отслеживание питания стоит подписки. Набрал 8кг мышц за 6 месяцев!">"Best fitness app I've ever used. The nutrition tracking alone is worth the subscription. Gained 8kg of muscle in 6 months!"</p>
+                    <div class="test-author">
+                        <div class="test-avatar" style="background:linear-gradient(135deg,#ef4444,#f59e0b)">MR</div>
+                        <div><strong>Maria R.</strong><span>60kg &rarr; 56kg</span></div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <div class="test-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+                    <p data-lang-en="The community feature keeps me motivated. I've connected with amazing workout partners and we push each other every day." data-lang-ru="Функция сообщества поддерживает мотивацию. Я нашёл отличных партнёров по тренировкам, и мы мотивируем друг друга каждый день.">"The community feature keeps me motivated. I've connected with amazing workout partners and we push each other every day."</p>
+                    <div class="test-author">
+                        <div class="test-avatar" style="background:linear-gradient(135deg,#8b5cf6,#ec4899)">JL</div>
+                        <div><strong>Jake L.</strong><span>92kg &rarr; 78kg</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="test-dots" id="testDots">
+                <button class="td active" data-slide="0"></button>
+                <button class="td" data-slide="1"></button>
+                <button class="td" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Stats -->
+    <section class="community" id="community">
+        <div class="container">
+            <div class="community-stats">
+                <div class="cs"><span class="cs-num" data-count="10000">0</span><span>+</span><p data-lang-en="Active Members" data-lang-ru="Активных участников">Active Members</p></div>
+                <div class="cs"><span class="cs-num" data-count="500">0</span><span>+</span><p data-lang-en="Workout Plans" data-lang-ru="Планов тренировок">Workout Plans</p></div>
+                <div class="cs"><span class="cs-num" data-count="50">0</span><span>+</span><p data-lang-en="Expert Trainers" data-lang-ru="Экспертных тренеров">Expert Trainers</p></div>
+                <div class="cs"><span class="cs-num" data-count="98">0</span><span>%</span><p data-lang-en="Satisfaction" data-lang-ru="Удовлетворённость">Satisfaction</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="cta">
+        <div class="container cta-inner">
+            <h2 data-lang-en="Ready to Start Your Journey?" data-lang-ru="Готовы начать свой путь?">Ready to Start Your Journey?</h2>
+            <form class="cta-form" id="ctaForm">
+                <input type="email" placeholder="your@email.com" required>
+                <button type="submit" data-lang-en="Join Now" data-lang-ru="Присоединиться">Join Now</button>
+            </form>
+            <p class="cta-note" data-lang-en="Free 14-day trial. No credit card required." data-lang-ru="Бесплатный 14-дневный триал. Карта не нужна.">Free 14-day trial. No credit card required.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-col">
+                <h4>VITALIS</h4>
+                <p data-lang-en="Transform your body with the power of AI-driven fitness tracking." data-lang-ru="Трансформируйте тело с помощью ИИ-фитнес-трекера.">Transform your body with the power of AI-driven fitness tracking.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-lang-en="Programs" data-lang-ru="Программы">Programs</h4>
+                <a href="#">HIIT Burn</a>
+                <a href="#">Strength Builder</a>
+                <a href="#">Yoga Flow</a>
+                <a href="#">Cardio Rush</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-lang-en="Support" data-lang-ru="Поддержка">Support</h4>
+                <a href="#" data-lang-en="Help Center" data-lang-ru="Помощь">Help Center</a>
+                <a href="#" data-lang-en="Privacy" data-lang-ru="Конфиденциальность">Privacy</a>
+                <a href="#" data-lang-en="Terms" data-lang-ru="Условия">Terms</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-lang-en="Social" data-lang-ru="Соцсети">Social</h4>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 VITALIS. <span data-lang-en="All rights reserved." data-lang-ru="Все права защищены.">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
