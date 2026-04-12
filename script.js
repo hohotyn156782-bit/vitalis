@@ -12,6 +12,9 @@
         document.querySelectorAll('[data-lang-en]').forEach(el => {
             el.textContent = el.getAttribute('data-lang-' + l);
         });
+        document.querySelectorAll('[data-placeholder-en]').forEach(el => {
+            el.placeholder = el.getAttribute('data-placeholder-' + l);
+        });
     }
     document.getElementById('langBtn').addEventListener('click', () => setLang(lang === 'en' ? 'ru' : 'en'));
 
@@ -173,7 +176,7 @@
         const orig = btn.textContent;
         btn.textContent = lang === 'ru' ? 'Готово!' : 'Joined!';
         btn.style.background = '#22c55e';
-        e.target.querySelector('input').value = '';
+        e.target.querySelectorAll('input').forEach(inp => inp.value = '');
         setTimeout(() => {
             btn.textContent = orig;
             btn.style.background = '';
